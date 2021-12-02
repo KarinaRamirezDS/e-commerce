@@ -1,0 +1,33 @@
+.productoTotal{
+    border: 1px solid black;
+    max-width: 320px;
+    width: 90%;
+    height: auto;
+    
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.1);
+    background-color: #181D31;
+    border-radius: .75rem;
+   cursor: pointer;
+   transition: all 400ms ease;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   margin-top: 10%;
+   
+}
+.productoTotal:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+   transform: translate(-3%);
+}
+
+.totalt{
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.art{
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+}

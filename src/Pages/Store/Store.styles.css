@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mains{
+    padding: 2rem;
+   
+    flex-wrap: wrap;
+}
+.mains>h2{
+ text-align: center;
+ font-size: 36px;
+ text-decoration-line: underline overline;
+ color: #0A1931;
+ font-weight: bolder;
+
+}
+.producto-cards{
+    border: 1px solid black;
+    max-width: 300px;
+    width: 90%;
+    margin: 1rem 0;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: .75rem;
+    
+   cursor: pointer;
+   transition: all 400ms ease;
+
+}
+.producto-cards:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+   transform: translate(-3%);
+}
+.lista-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.producto-cards > img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: .75rem .75rem 0 0;
+}
+.producto-infos{
+    padding: 1rem;
+    height: 220px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.producto-infos > h1{
+    font-size: 1.2rem;
+    color: darkturquoise;
+}
+
+.producto-infos > p{
+    font-size: 1rem;
+}
+.precio {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: slategrey;
+}
+.producto-cards > .producto-info > button{
+    align-items: center;
+    padding: .75rem;
+    background-color: #FFC947;
+    border: none;
+    border-radius: .75rem;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+}
+.producto-cards > .producto-info > button:hover{
+    padding: .75rem;
+    background-color: darkorange;
+    border: none;
+    justify-content: center;
+    border-radius: .75rem;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+
+#inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#inicio::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('./artem-gavrysh-F6-U5fGAOik-unsplash.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+
+#inicio > h1{
+    color: darkorange;
+  
+    background-color: rgba(144, 168, 195, 0.5);
+    margin: 120px 50px 75px 100px;
+}
+

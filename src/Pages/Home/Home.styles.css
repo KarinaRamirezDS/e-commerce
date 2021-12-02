@@ -1,0 +1,10 @@
+.parrafos {
+    font-size: 2.5rem;
+    color: white;  
+    
+    text-align: center;
+}
+.next{
+    align-items: center;
+    justify-content: center;
+}
